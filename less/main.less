@@ -84,7 +84,7 @@ justify-content: @content;
 .main-top-container{
     width: 100%;
     height: 1500px;
-    border:2px solid blue;
+    // border:2px solid blue;
 .logo-shopping_cart-container{
 	width:100%;
 	height:100px;
@@ -106,13 +106,16 @@ justify-content: @content;
 	}
 	.shopping_cart_container{
 		margin-top:2px;
-		width: 25%;
+		width: 50%;
+		// border:2px solid red;
+		display: flex;
+		justify-content: flex-end;
 			}
 			.search{
 				margin-top:40px;
-				margin-right:100px;
+				margin-right:50px;
 				height:30px;
-				border:2px solid blue;
+				// border:2px solid blue;
 				.search_text{
 					height: 30px;
 				}
@@ -133,21 +136,25 @@ justify-content: @content;
 			}
 				.shopping_btn{
 				margin-right:100px;
-				margin-bottom:15px;
+				// margin-bottom:15px;
+				margin-top: 22px;
 				border:2px solid rgb(160, 10, 35);
 				border: 1px solid #ddd;
 				float:center;
-				font-size: 18px;
-				margin-top: 25px;
-				padding: 10px;
+				font-size: 14px;
+				height:50px;
+				width:20%;
+				// padding-left: 20px;
 				position: relative;
 				color:white;
 				background: linear-gradient(#4b6cb7,#182848);
 				box-shadow:2px 2px lightgrey;
 				.flex-align(center,@flex);
 				.fa-shopping-cart{
-					margin:.50rem 1.00rem 0 1.00rem;
+					// margin:.50rem 1.00rem 0 1.00rem;
+					line-height:28px;
 					color:white;
+
 
 				}
 
@@ -156,38 +163,40 @@ justify-content: @content;
 	}
 }
 
-	.middle_container{
-		width:100%;
-		height:500px;
-		// border:2px solid blue;
-		// background-image:url(sale.jpg);
-		background-size: cover;
 		.middle_nav_container{
-			width:30%;
+			width:500px;
 			height:50px;
-			border:1px solid blue;
-			background:linear-gradient(#5f2c82,#49a09d);
+			// border:1px solid blue;
+			background: linear-gradient(#4b6cb7,#182848);
 		nav{
 			.flex-align(center,@flex);
 			align-items:center;
-			// border:2px solid pink;
-			margin-top:.80rem;
+			border:1px solid blue;
+			height:50px;
+			padding-top:.20rem;
 
 			a{
-				margin:0 1.25rem 0 1.25rem;
+				margin:0 1.5rem 0 1.5rem;
 				text-decoration: none;
 				color:white;
 			}
 		}
 		}
-		.categories_section{
-			width:15%;
-			height:450px;
-			border:1px solid lightgrey;
-			overflow-y: scroll;
-			background-color:white;
+
+		.middle_container{
+			width:100%;
+			height:452px;
+			border:2px solid brown;
+			.categories_section{
+				width:200px;
+				height:450px;
+				border:1px solid red;
+				overflow-y: scroll;
+				background-color:white;
+			}
 		}
-	}
+
+/*buttons*/
 .buttons_container{
 	width:100%;
 	height:200px;
